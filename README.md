@@ -1,28 +1,26 @@
-# NoaaTds
+# NOAA Text Data Server
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/noaa_tds`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'noaa_tds'
+source "https://rubygems.pkg.github.com/jakewilkins" do
+  gem "noaa_tds"
+end
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install noaa_tds
+See [help docs](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-rubygems-for-use-with-github-packages)
+for more help using GitHub Packages
 
 ## Usage
 
-TODO: Write usage instructions here
+     >  NoaaTds::TAF.for_flight_path(["KWHP", "KSBA"])
 
 ## Development
 
