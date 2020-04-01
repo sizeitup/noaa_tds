@@ -6,6 +6,11 @@
 Add this line to your application's Gemfile:
 
 ```ruby
+
+gem "noaa_tds"
+
+## Or using GitHub Package Registry
+
 source "https://rubygems.pkg.github.com/jakewilkins" do
   gem "noaa_tds"
 end
